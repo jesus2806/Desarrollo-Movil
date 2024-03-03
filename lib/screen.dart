@@ -37,15 +37,15 @@ class _JsonListViewScreenState extends State<JsonListViewScreen> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color.fromARGB(255, 0, 0, 0),
       ),
       body: ListView.builder(
         itemCount: items.length,
         itemBuilder: (BuildContext context, int index) {
           return Card(
-            color: Colors.lightGreenAccent,
+            color: Color.fromARGB(255, 29, 188, 194),
             elevation: 3,
-            margin: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+            margin: EdgeInsets.symmetric(horizontal: 450, vertical: 10),
             child: ListTile(
               title: Text(
                 items[index].name,
